@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "51bb8d16-2b93-4160-bad8-0be6990c8619",
+		"name": "api-melivecode",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39009038"
+	},
+	"item": [
+		{
+			"name": "user create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"id\": 1,\r\n\"fname\": \"Cat\",\r\n\"lname\": \"Chat\",\r\n\"username\": \"Cat.chatyong@melivecode.com\",\r\n\"password\": \"1234\",\r\n\"email\": \"Cat.chatyong@melivecode.com\",\r\n\"avatar\": \"https://www.melivecode.com/users/cat.png\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.melivecode.com/api/users/create",
+					"protocol": "https",
+					"host": [
+						"www",
+						"melivecode",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user delete",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "user update",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
